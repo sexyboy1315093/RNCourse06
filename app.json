@@ -28,6 +28,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "카메라 기능을 위해 권한을 허용하셔야 합니다."
+        }
+      ]
+    ]
   }
 }
